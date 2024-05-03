@@ -1,0 +1,92 @@
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    font-family: 'Monaco', monospace;
+    
+}
+
+html{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    font-family: 'Monaco', monospace;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+main{
+    text-align: center;
+
+}
+.gameWindows {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#gameWindows figure {
+    flex: 0 0 20%;
+    border: 2px solid black;
+    background-color: #132160;
+    color:aliceblue
+}
+
+button{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4f8ab0;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Monaco', monospace;
+}
+
+button:hover{
+    background-color: #3f6a90;
+}
+
+button:active{
+    background-color: #2f4a70;
+}
+
+#imgResult{
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+#resultContainer {
+    width: 50vw;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+  }
+  
+.scoreBoard {
+    border-radius: 10px;
+    border: solid 5px rgb(126, 112, 144);
+    color: rgb(255, 255, 255);
+    background-color: #132160;
+    display: inline-block;
+    padding: 1vw;
+    width: 40%;
+  
+  }
+
+hr{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-color: black;
+}
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 10px;
+}
